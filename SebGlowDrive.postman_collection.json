@@ -1,0 +1,523 @@
+{
+	"info": {
+		"_postman_id": "e2d6d2bc-05d0-49e7-a84e-40b5e5521b92",
+		"name": "SebGlowDrive",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "InputStreets",
+			"item": [
+				{
+					"name": "Wet",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"WetStreet\",\r\n    start:[1.1,10],\r\n    end:[4,3.5]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Quiet",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"QuietStreet\",\r\n    start:[2.3,2.8],\r\n    end:[5,7]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"NewStreet\",\r\n    start:[4,1],\r\n    end:[8,11]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Grey",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"GreyStreet\",\r\n    start:[1,8],\r\n    end:[9,10]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vertical",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"VerticalStreet\",\r\n    start:[1,1],\r\n    end:[1,15]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "45Deg",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"45DegStreet\",\r\n    start:[1,0],\r\n    end:[2,1]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Horizontal",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"HorizontalStreet\",\r\n    start:[5,5],\r\n    end:[-5,5]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Min45Deg",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    name: \"Min45DegStreet\",\r\n    start:[-2,3],\r\n    end:[4,-3]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54444/api/street",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"street"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TestCases",
+			"item": [
+				{
+					"name": "x=1 y=0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=1&y=0",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "1"
+								},
+								{
+									"key": "y",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=1 y=1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=1&y=1",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "1"
+								},
+								{
+									"key": "y",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=1",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=2",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=5",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=6",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=8.2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=8.2",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "8.2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=8.5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=8.5",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "8.5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "x=2 y=11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:54444/api/closest?x=2&y=11",
+							"host": [
+								"localhost"
+							],
+							"port": "54444",
+							"path": [
+								"api",
+								"closest"
+							],
+							"query": [
+								{
+									"key": "x",
+									"value": "2"
+								},
+								{
+									"key": "y",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
